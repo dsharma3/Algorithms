@@ -1,0 +1,8 @@
+F:\Projects\Algorithms\bin\Debug\netcoreapp1.1\Algorithms.deps.json
+F:\Projects\Algorithms\bin\Debug\netcoreapp1.1\Algorithms.runtimeconfig.json
+F:\Projects\Algorithms\bin\Debug\netcoreapp1.1\Algorithms.runtimeconfig.dev.json
+F:\Projects\Algorithms\obj\Debug\netcoreapp1.1\Algorithms.AssemblyInfo.cs
+F:\Projects\Algorithms\bin\Debug\netcoreapp1.1\Algorithms.dll
+F:\Projects\Algorithms\bin\Debug\netcoreapp1.1\Algorithms.pdb
+F:\Projects\Algorithms\obj\Debug\netcoreapp1.1\Algorithms.dll
+F:\Projects\Algorithms\obj\Debug\netcoreapp1.1\Algorithms.pdb
