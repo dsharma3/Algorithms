@@ -14,11 +14,11 @@ namespace Algorithms
 {
     class Program
     {        
-        static void Main(string[] args)
+        void Main(string[] args)
         {
             ISorting sortingObj;          
 
-            Console.WriteLine("Please enter the array seperated by space to sort.");
+           /* Console.WriteLine("Please enter the array seperated by space to sort.");
 
             var numbers = Console.ReadLine().Split(' ').Select(token => int.Parse(token));
             // if you must have it as an array...
@@ -37,7 +37,7 @@ namespace Algorithms
             {
                 Console.Write(arr[i]);
                 Console.Write(" ");
-            }
+            }*/
         }
     }
 }
