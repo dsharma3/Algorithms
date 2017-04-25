@@ -6,3 +6,11 @@ F:\Projects\Algorithms\bin\Debug\netcoreapp1.1\Algorithms.dll
 F:\Projects\Algorithms\bin\Debug\netcoreapp1.1\Algorithms.pdb
 F:\Projects\Algorithms\obj\Debug\netcoreapp1.1\Algorithms.dll
 F:\Projects\Algorithms\obj\Debug\netcoreapp1.1\Algorithms.pdb
+F:\Github\Algorithms\Datastructures & Algos\bin\Debug\netcoreapp1.1\Algorithms.deps.json
+F:\Github\Algorithms\Datastructures & Algos\bin\Debug\netcoreapp1.1\Algorithms.runtimeconfig.json
+F:\Github\Algorithms\Datastructures & Algos\bin\Debug\netcoreapp1.1\Algorithms.runtimeconfig.dev.json
+F:\Github\Algorithms\Datastructures & Algos\obj\Debug\netcoreapp1.1\Algorithms.AssemblyInfo.cs
+F:\Github\Algorithms\Datastructures & Algos\obj\Debug\netcoreapp1.1\Algorithms.dll
+F:\Github\Algorithms\Datastructures & Algos\obj\Debug\netcoreapp1.1\Algorithms.pdb
+F:\Github\Algorithms\Datastructures & Algos\bin\Debug\netcoreapp1.1\Algorithms.dll
+F:\Github\Algorithms\Datastructures & Algos\bin\Debug\netcoreapp1.1\Algorithms.pdb

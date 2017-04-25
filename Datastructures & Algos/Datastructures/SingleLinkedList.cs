@@ -8,6 +8,7 @@
         c) Same case with searching\traversing the time complexity is O(n) in worst case.
 
  */
+using System;
 namespace Algorithms{
     public class SingleLinkedList
     {
@@ -28,7 +29,7 @@ namespace Algorithms{
                 return mNext;
             }
             private set{
-                Next = value;
+                mNext = value;
             }
         }
 
@@ -40,7 +41,7 @@ namespace Algorithms{
             this.Data = data;
         }
 
-        public void GetData(){
+        public object GetData(){
 
             return this.Data;
         }
@@ -61,12 +62,36 @@ namespace Algorithms{
             return this.Next != null;
         }     
 
-        public void AddNode(SingleLinkedList node){
-            while(true){
-                if(){
-
-                }
+        public void AddNode(SingleLinkedList node, int index){
+            var count = 0;
+            var currentNode = this;
+            while(true){   
+                if(currentNode.HasNextNode()){   
+                    currentNode = currentNode.Next;               
+                   
+                    if(count == index){
+                        var temp = currentNode.Next;
+                        currentNode.Next = node;
+                        node.Next = temp;
+                        break;
+                    }
+                    count++;
+                 }
+                 else{
+                     currentNode.Next = node;
+                     break;
+                 }
             }
+        }
+
+        public void GetAllNodes(){
+            var count = 0;
+            var currentNode = this;          
+             while(currentNode.HasNextNode()){ 
+                currentNode = currentNode.Next;    
+                Console.WriteLine("Node-no:{0}, Node-data-{1}", count, currentNode.GetData().ToString());
+                count++;
+             }
         }        
     }
 }

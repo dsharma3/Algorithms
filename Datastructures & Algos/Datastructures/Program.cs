@@ -4,16 +4,18 @@ using Sorting;
 
 namespace Algorithms
 {
-    class Program
+    class Program2
     {        
         public static void Main(string[] args)
         {
             var pObj = new Program();
             var list = new SingleLinkedList("header");            
 
-            for(int i =0; i<10;i++){               
-               var nextList = new SingleLinkedList("data"+i.ToString());               
+            for(int i =1; i<=10;i++){               
+               list.AddNode(new SingleLinkedList("data"+i.ToString()), i);
             }            
+
+            list.GetAllNodes();
         }
     }
 }

@@ -7080,16 +7080,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\Algorithms\\Algorithms.csproj",
+      "projectUniqueName": "F:\\Github\\Algorithms\\Datastructures & Algos\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "F:\\Projects\\Algorithms\\Algorithms.csproj",
-      "outputPath": "F:\\Projects\\Algorithms\\obj\\",
+      "projectPath": "F:\\Github\\Algorithms\\Datastructures & Algos\\Algorithms.csproj",
+      "outputPath": "F:\\Github\\Algorithms\\Datastructures & Algos\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Algorithms.dll": "F:\\Projects\\Algorithms\\bin\\placeholder\\netcoreapp1.1\\Algorithms.dll"
+        "lib/netcoreapp1.1/Algorithms.dll": "F:\\Github\\Algorithms\\Datastructures & Algos\\bin\\placeholder\\netcoreapp1.1\\Algorithms.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
