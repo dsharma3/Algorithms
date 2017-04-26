@@ -92,6 +92,27 @@ namespace Algorithms{
                 Console.WriteLine("Node-no:{0}, Node-data-{1}", count, currentNode.GetData().ToString());
                 count++;
              }
-        }        
+        } 
+
+        public void DeleteNode(int index){
+            var count = 1;
+            var currentNode = this;
+            while(true){
+                Console.WriteLine(count);                
+                if(currentNode!=null){
+                    if(count==index){
+                        var temp = currentNode.Next;
+
+                        if(temp != null)
+                            currentNode.Next = temp.Next;                       
+                        else
+                            currentNode = null;
+                        break;
+                    }
+                    count++;
+                }
+                currentNode = currentNode.Next;
+            }
+        }
     }
 }
